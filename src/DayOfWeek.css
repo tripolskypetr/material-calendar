@@ -1,0 +1,22 @@
+.calendar-day__cell {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.calendar-day__cell:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.calendar-day__cell--disabled {
+  opacity: 0.5;
+}
+
+.calendar-day__cell--active:not(.calendar-day__cell--selected) {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+
+.calendar-day__cell--selected {
+  border: 1px solid #fff;
+  margin: -1px;
+}

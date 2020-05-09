@@ -1,0 +1,31 @@
+.calendar-picker {
+  max-height: 205px;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar-picker__chip {
+  border-radius: 25px;
+  border: 1px solid #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 3px;
+}
+
+.calendar-picker__chip--active {
+  background: rgba(255, 0, 255, 0.5);
+  border: none;
+}
+
+.calendar-picker::-webkit-scrollbar {
+  display: none;
+}
+
+.calendar-picker {
+  -ms-overflow-style: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
